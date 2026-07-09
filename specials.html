@@ -94,8 +94,8 @@ tr:first-child{
 tr:nth-child(even){
   background-color:wheat;
 }
-tr :is(.day){
-text-decoration: line-through;
+tr:nth-child(odd):not(:first-child){
+  background-color: blanchedalmond;
 }
 
 
@@ -183,6 +183,9 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+}
+#mailinglist p::first-letter {
+       font-size: 300%;color: #07c627;
 }
 
 </style>
