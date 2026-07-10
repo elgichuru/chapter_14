@@ -190,10 +190,18 @@ ul {
   margin-left: 2px;
 }
 /* module fomatting*/
-#mailinglist .fullstop::after{
+.fullstop::after{
   content: url(images/star-icon.png);
 }
 
+#entertainment li::before{
+  content: url(images/star-icon.png);
+  margin-right: 1em;
+}
+#entertainment .fave::after{
+  content: " (Fan Favorite)";
+  color: darkolivegreen;
+}
 
 </style>
 </head>
